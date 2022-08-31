@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Fetch code'){
       steps {
-        git branch: 'docker', url: 'https://github.com/Milotun/my_cicd_proj.git'
+        git branch: 'docker', url: 'git@github.com:Milotun/my_cicd_proj.git'
       }
     }
 
